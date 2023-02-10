@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "solid";
+    src: url(./font/Macula\ Solid.otf);
+}
+
+
+@font-face {
+    font-family: "line";
+    src: url(./font/Macula\ Line.otf);
+}
+
+@font-face {
+    font-family: "shade";
+    src: url(./font/Macula\ Shaded.otf);
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    margin:0;
+    height: 100vh;
+    background-color: #FFDB17;
+}
+
+section{
+    height: 100%;
+    text-align: center;
+}
+
+
+img{
+    width: 90%;
+    height: 100%;
+    right: 0;
+
+}
+
+h2 {
+    font-size: 5em;
+    position: absolute;
+}
+
+h1{
+    text-align: center;
+}
+
+.first{
+    background-color: #7AFF57;
+    z-index: 0;
+}
+
+#yeatText{
+    color:black;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-family: "solid", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7rem;
+}
+
+.second{
+    background-color: #DBADFF;
+    z-index: 0;
+}
+
+#sahText{
+    color: #42C0FF;
+    z-index:1;
+    font-family: "shade", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5rem;
+
+}
+
+.third{
+    background-color: #FF0F20;
+    z-index: 0;
+}
+
+#cartiText{
+    color:aqua;
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-family: "line", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.fourth{
+    background-color: #0095FC;
+    z-index: 0;
+}
+
+#babyText{
+    color: green;
+    top: 30%;
+    z-index: 1;
+    font-family: "shade", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.fifth{
+    background-color: white;
+    z-index: 0;
+}
+
+#luckiText{
+    color: blueviolet;
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-family: "solid", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.six{
+    background-color: #FFDB17;
+    z-index: 0;
+}
+
+#sosaText{
+    color: blueviolet;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-family: "line", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
