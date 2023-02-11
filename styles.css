@@ -27,6 +27,7 @@ body{
 section{
     height: 100%;
     text-align: center;
+    scroll-snap-stop: always;
 }
 
 
@@ -61,7 +62,7 @@ h1{
     font-family: "solid", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 7rem;
+    font-size: 5.25rem;
 }
 
 .second{
@@ -70,7 +71,7 @@ h1{
 }
 
 #sahText{
-    color: #42C0FF;
+    color: #000000;
     z-index:1;
     font-family: "shade", sans-serif;
     font-style: normal;
@@ -86,7 +87,7 @@ h1{
 
 #cartiText{
     color:aqua;
-    top: 30%;
+    top: 40%;
     left: 70%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -95,14 +96,16 @@ h1{
     font-weight: 500;
 }
 
+
 .fourth{
     background-color: #0095FC;
     z-index: 0;
 }
 
 #babyText{
-    color: green;
-    top: 30%;
+    color: rgb(255, 255, 255);
+    right: 80%;
+    transform: translate(90%, 20%);
     z-index: 1;
     font-family: "shade", sans-serif;
     font-style: normal;
@@ -115,10 +118,10 @@ h1{
 }
 
 #luckiText{
-    color: blueviolet;
+    color: rgb(255, 21, 4);
     top: 30%;
-    left: 70%;
-    transform: translate(-50%, -50%);
+    right: 80%;
+    transform: translate(90%, -30%);
     z-index: 1;
     font-family: "solid", sans-serif;
     font-style: normal;
@@ -133,10 +136,32 @@ h1{
 #sosaText{
     color: blueviolet;
     top: 40%;
-    left: 70%;
+    left: 80%;
     transform: translate(-50%, -50%);
     z-index: 1;
     font-family: "line", sans-serif;
     font-style: normal;
     font-weight: 500;
 }
+.trail {
+    position: fixed;
+    pointer-events: none;
+    background-image: url('imgs/heartagram.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+  }
+
+
+  ::-webkit-scrollbar {
+    width: 20px;
+    background-color: #f50000;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #000000;
+  }
